@@ -12,7 +12,7 @@ const Home = () => {
             .then((data) => setMovies(data));
     }, []);
 
-    console.log(movies);
+    // console.log(movies);
 
     return (
         <>
